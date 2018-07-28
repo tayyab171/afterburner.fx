@@ -54,6 +54,7 @@
         </dependency>
     </dependencies>
     <build>
+    <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -176,6 +177,7 @@
             </resource>
         </resources>
         <finalName>afterburner</finalName>
+        </pluginManagement>
     </build>
     <scm>
         <connection>scm:git:git@github.com:AdamBien/afterburner.fx.git</connection>
